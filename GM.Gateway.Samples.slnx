@@ -1,0 +1,21 @@
+<Solution>
+  <Folder Name="/Solution Items/Meta/">
+    <File Path="README.md" />
+    <File Path="LICENSE" />
+  </Folder>
+  <Folder Name="/Solution Items/Build/">
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+  </Folder>
+  <Folder Name="/Solution Items/CI/">
+    <File Path=".github/workflows/ci.yml" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="GM.Gateway.Sample.Gateway/GM.Gateway.Sample.Gateway.csproj" />
+    <Project Path="GM.Gateway.Sample.Backend/GM.Gateway.Sample.Backend.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/GM.Gateway.Sample.Tests/GM.Gateway.Sample.Tests.csproj" />
+  </Folder>
+</Solution>
