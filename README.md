@@ -3,8 +3,8 @@
 A runnable [GM.Gateway](https://github.com/gmetskhvarishvili/GM.Gateway) demo: a YARP reverse proxy
 that enforces **GM distributed rate limiting at the edge**, in front of a small backend service.
 
-> References the sibling source repos by **project path** so it builds against the current code. Swap
-> the `ProjectReference`s in `GM.Gateway.Sample.Gateway.csproj` for `PackageReference`s once published.
+> Consumes the published `GM.Gateway`, `GM.RateLimiting.Redis`, `GM.Caching`, `GM.Caching.Redis`, and
+> `GM.DistributedLock` NuGet packages via `PackageReference` in `GM.Gateway.Sample.Gateway.csproj`.
 
 ## Layout
 
